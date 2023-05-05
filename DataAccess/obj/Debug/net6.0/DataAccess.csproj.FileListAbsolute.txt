@@ -37,3 +37,6 @@ C:\Users\user\Desktop\WeatherInDoom\DataAccess\obj\Debug\net6.0\refint\DataAcces
 C:\Users\user\Desktop\WeatherInDoom\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\user\Desktop\WeatherInDoom\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 C:\Users\user\Desktop\WeatherInDoom\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+E:\praktika\WeatherInDoom\DataAccess\bin\Debug\net6.0\Domain.dll
+E:\praktika\WeatherInDoom\DataAccess\bin\Debug\net6.0\Domain.pdb
+E:\praktika\WeatherInDoom\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete

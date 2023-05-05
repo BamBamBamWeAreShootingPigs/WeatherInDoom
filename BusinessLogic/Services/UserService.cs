@@ -37,13 +37,12 @@ namespace BusinessLogic.Services
             _repositoryWrapper.User.Update(model);
             _repositoryWrapper.Save();
         }
-        public async Task Delete(int id)
+        public async Task<Buyer> Delete(int id)
         {
             var user = await _repositoryWrapper.User
             .FindByCondition(x => x.BuyerId == id);
             _repositoryWrapper.User.Delete(user.First());
             _repositoryWrapper.Save();
         }
-
     }
 }

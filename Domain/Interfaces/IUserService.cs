@@ -13,6 +13,6 @@ namespace Domain.Interfaces
         Task<Buyer> GetById(int id);
         Task Create(Buyer model);
         Task Update(Buyer model);
-        Task Delete(int id);
+        Task<Buyer> Delete(int id);
     }
 }

@@ -12,8 +12,6 @@ E:\praktika\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dl
 E:\praktika\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
 E:\praktika\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
 E:\praktika\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
-E:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
-E:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
 E:\praktika\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
 D:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
 D:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
@@ -49,3 +47,5 @@ C:\Users\user\Desktop\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\refint\Busine
 C:\Users\user\Desktop\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
 C:\Users\user\Desktop\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
 C:\Users\user\Desktop\WeatherInDoom\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\praktika\WeatherInDoom\BusinessLogic\bin\Debug\net6.0\Domain.pdb

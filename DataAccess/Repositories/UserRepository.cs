@@ -16,30 +16,5 @@ namespace DataAccess.Repositories
         {
 
         }
-
-        public Task Create(Domain.Models.Buyer entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task Delete(Domain.Models.Buyer entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<List<Domain.Models.Buyer>> FindByCondition(Expression<Func<Domain.Models.Buyer, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task Update(Domain.Models.Buyer entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<List<Domain.Models.Buyer>> IRepositoryBase<Domain.Models.Buyer>.FindAll()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
