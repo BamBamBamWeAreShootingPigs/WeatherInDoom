@@ -1,0 +1,6 @@
+E:\praktika\WeatherInDoom\BL.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+E:\praktika\WeatherInDoom\BL.Tests\obj\Debug\net6.0\BL.Tests.csproj.AssemblyReference.cache
+E:\praktika\WeatherInDoom\BL.Tests\obj\Debug\net6.0\BL.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\praktika\WeatherInDoom\BL.Tests\obj\Debug\net6.0\BL.Tests.AssemblyInfoInputs.cache
+E:\praktika\WeatherInDoom\BL.Tests\obj\Debug\net6.0\BL.Tests.AssemblyInfo.cs
+E:\praktika\WeatherInDoom\BL.Tests\obj\Debug\net6.0\BL.Tests.csproj.CoreCompileInputs.cache

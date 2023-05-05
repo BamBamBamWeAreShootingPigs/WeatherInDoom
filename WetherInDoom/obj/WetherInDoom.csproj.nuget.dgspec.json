@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj": {}
+    "E:\\praktika\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj": {
+    "E:\\praktika\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "E:\\praktika\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "E:\\praktika\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\obj\\",
+        "outputPath": "E:\\praktika\\WeatherInDoom\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj"
+              "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,28 +43,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\DataAccess.csproj": {
+    "E:\\praktika\\WeatherInDoom\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\praktika\\WeatherInDoom\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\DataAccess.csproj",
+        "projectPath": "E:\\praktika\\WeatherInDoom\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\obj\\",
+        "outputPath": "E:\\praktika\\WeatherInDoom\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj"
+              "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj"
               }
             }
           }
@@ -96,28 +114,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj": {
+    "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\Domain.csproj",
+        "projectPath": "E:\\praktika\\WeatherInDoom\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\Domain\\obj\\",
+        "outputPath": "E:\\praktika\\WeatherInDoom\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,28 +181,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj": {
+    "E:\\praktika\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj",
+        "projectUniqueName": "E:\\praktika\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj",
         "projectName": "WetherInDoom",
-        "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj",
+        "projectPath": "E:\\praktika\\WeatherInDoom\\WetherInDoom\\WetherInDoom.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\WetherInDoom\\obj\\",
+        "outputPath": "E:\\praktika\\WeatherInDoom\\WetherInDoom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,11 +237,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj"
+              "E:\\praktika\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "E:\\praktika\\WeatherInDoom\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\WeatherInDoom\\DataAccess\\DataAccess.csproj"
+              "E:\\praktika\\WeatherInDoom\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "E:\\praktika\\WeatherInDoom\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -201,17 +255,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

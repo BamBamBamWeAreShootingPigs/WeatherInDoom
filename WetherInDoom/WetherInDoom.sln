@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WetherInDoom", "WetherInDoom.csproj", "{147DC90F-9CD5-46B1-A3B3-C1E53952B0E0}"
 EndProject
@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Tests", "..\BL.Tests\BL.Tests.csproj", "{BE2694C8-878A-487E-83E3-76C042674309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DDD895E-2F4B-40EE-992C-918310251343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{24C609A5-D885-4DE8-8C70-E455D8B11593}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +44,20 @@ Global
 		{1998CD8C-1766-48DA-9314-EACA68CEB835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1998CD8C-1766-48DA-9314-EACA68CEB835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1998CD8C-1766-48DA-9314-EACA68CEB835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2694C8-878A-487E-83E3-76C042674309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2694C8-878A-487E-83E3-76C042674309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2694C8-878A-487E-83E3-76C042674309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2694C8-878A-487E-83E3-76C042674309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{147DC90F-9CD5-46B1-A3B3-C1E53952B0E0} = {9DDD895E-2F4B-40EE-992C-918310251343}
+		{0BEC5E95-8E2A-400D-B7CF-B377EEA94060} = {9DDD895E-2F4B-40EE-992C-918310251343}
+		{2DF2B5AC-365B-4C1C-B87D-678422062CD5} = {9DDD895E-2F4B-40EE-992C-918310251343}
+		{1998CD8C-1766-48DA-9314-EACA68CEB835} = {9DDD895E-2F4B-40EE-992C-918310251343}
+		{BE2694C8-878A-487E-83E3-76C042674309} = {24C609A5-D885-4DE8-8C70-E455D8B11593}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99DA1078-38C7-446D-B2C7-D02FB6A7C639}
